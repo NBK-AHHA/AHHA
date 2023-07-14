@@ -41,10 +41,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("버킷 리스트"),
+        title: Text("스파르타코딩클럽"),
       ),
       body: bucketList.isEmpty
-          ? Center(child: Text("버킷 리스트를 작성해 주세요."))
+          ? Center(child: Text("버킷 리스트를 작성해 주세요~~~!!"))
           : ListView.builder(
               itemCount: bucketList.length, // bucketList 개수 만큼 보여주기
               itemBuilder: (context, index) {
